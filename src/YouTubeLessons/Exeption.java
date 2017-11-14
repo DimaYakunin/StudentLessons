@@ -1,6 +1,6 @@
 package YouTubeLessons;
 
-public class Exeption {
+public class Exeption extends Throwable {
     public static void main(String[] args) {
         new Exeption().someMethod();
     }
